@@ -1,4 +1,6 @@
 ﻿using System;
+using Pharma.Menu;
+
 
 namespace Pharma
 {
@@ -6,7 +8,9 @@ namespace Pharma
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+             
+            UI u = new UI();
+            u.Menufunc();
         }
     }
 }

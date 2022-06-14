@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Pharma",
+    "\\Pharma\\Data",
+    "\\Pharma\\Data\\Databases",
+    "\\Pharma\\Domin",
+    "\\Pharma\\Domin\\Enttes",
+    "\\Pharma\\Menu",
+    "\\Pharma\\Service",
+    "\\Pharma\\Service\\Extansions",
+    "\\Pharma\\Service\\Services"
+  ],
+  "SelectedNode": "\\Pharma\\Menu\\Menu.cs",
+  "PreviewInSolutionExplorer": false
+}

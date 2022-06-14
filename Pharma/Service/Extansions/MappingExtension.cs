@@ -78,7 +78,7 @@ namespace Pharma.Service.Extansions
                 LastName = user.LastName,
                 Username = user.Username,
                 Phone = user.Phone,
-                Password = user.Password
+                Password = user.Password.GetHashCode().ToString()
 
 
             };

@@ -1,52 +1,13 @@
 [
+  
   {
-    "FirstName": "Salohiddin",
+    "FirstName": "Samandar",
     "LastName": "Botya",
-    "Username": "Unstoppable_dev",
+    "Username": "saman",
     "Phone": "123456789",
     "Password": "12162-17283-59270441205233285-1578512006-1994837184",
     "Id": 1,
-    "CreatedTime": "0001-01-01T00:00:00",
-    "UpdatedTime": "2022-06-08T11:13:55.4471354+05:00"
-  },
-  {
-    "FirstName": "Salohiddin",
-    "LastName": "Botya",
-    "Username": "Unstoppable",
-    "Phone": "123456789",
-    "Password": "12162-17283-59270441205233285-1578512006-1994837184",
-    "Id": 2,
     "CreatedTime": "2022-06-08T11:10:45.5042336+05:00",
     "UpdatedTime": "0001-01-01T00:00:00"
-  },
-  {
-    "FirstName": "Sarah",
-    "LastName": "John",
-    "Username": "sarajohn",
-    "Phone": "987654321",
-    "Password": "11252-3433-297914-1334328315-393215",
-    "Id": 3,
-    "CreatedTime": "2022-06-08T23:39:52.5620725+05:00",
-    "UpdatedTime": "0001-01-01T00:00:00"
-  },
-  {
-    "FirstName": "Avaz",
-    "LastName": "Azizov",
-    "Username": "azik",
-    "Phone": "123456789",
-    "Password": "62165-17284-59270431205233282-1578512001-1994837184",
-    "Id": 0,
-    "CreatedTime": "0001-01-01T00:00:00",
-    "UpdatedTime": "0001-01-01T00:00:00"
-  },
-  {
-    "FirstName": "qwer",
-    "LastName": "qwer",
-    "Username": "qwer",
-    "Phone": "qwer",
-    "Password": "q64w-64e-1728r-592704",
-    "Id": 5,
-    "CreatedTime": "2022-06-09T05:41:31.6942799+05:00",
-    "UpdatedTime": "2022-06-09T05:46:13.3397481+05:00"
   }
 ]

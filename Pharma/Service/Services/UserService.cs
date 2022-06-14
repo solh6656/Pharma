@@ -23,9 +23,9 @@ namespace Pharma.Service.Services
         public User Create(UserView userDto)
         {
             var users = GetAll();
-            bool check = users.Check(userDto.Username, userDto.Password);
+            bool check = users.Check(userDto.Username, userDto.Password.GetHashCode().ToString());
 
-            if (!check)
+            if (check)
                 return Update(userDto.Username, userDto);
 
             return userRepository.Create(userDto.Mapper());
