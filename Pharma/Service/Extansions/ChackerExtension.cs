@@ -22,8 +22,8 @@ namespace Pharma.Service.Extansions
 
         public static bool Check(this IEnumerable<SellerView> source, string fullname)
           => source.FirstOrDefault(p => p.FullName == fullname) is null;
-        public static bool Check(this IEnumerable<UserView> source, string usernam)
-          => source.FirstOrDefault(p => p.Username == usernam) is null;
+        public static bool Check(this IEnumerable<UserView> source, string usernam, string password)
+          => source.FirstOrDefault(p => p.Username == usernam && p.Password == password) is null;
 
 
 

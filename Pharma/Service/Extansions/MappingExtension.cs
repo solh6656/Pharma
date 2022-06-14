@@ -64,7 +64,9 @@ namespace Pharma.Service.Extansions
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 Username = user.Username,
-                Phone = user.Phone
+                Phone = user.Phone,
+                Password = user.Password
+                
             };
         }
 
@@ -75,7 +77,10 @@ namespace Pharma.Service.Extansions
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 Username = user.Username,
-                Phone = user.Phone
+                Phone = user.Phone,
+                Password = user.Password
+
+
             };
         }
 
