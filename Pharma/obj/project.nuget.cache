@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rgI1qttDbCCsq8ljf1fak3Nzt31Y3dGrGCo7ElzhTqLlsw6WbY170yF+N7WK3EpemS4B1uhxR9cAluYU3Z5pUg==",
+  "dgSpecHash": "nywZXJWGpg6YjW6b+EIQVBIRZ943+IUn0J9lcnbH3NKMAJB9+ed75oE0brvnR7rkoHC8mEqplX1ZW3Rnxz8+lw==",
   "success": true,
-  "projectFilePath": "D:\\Pharma\\Pharma\\Pharma.csproj",
+  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\Pharma\\Pharma\\Pharma.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

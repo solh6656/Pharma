@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pharma\\Pharma\\Pharma.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\Pharma\\Pharma\\Pharma.csproj",
       "projectName": "Pharma",
-      "projectPath": "D:\\Pharma\\Pharma\\Pharma.csproj",
+      "projectPath": "C:\\Users\\User\\Source\\Repos\\Pharma\\Pharma\\Pharma.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Pharma\\Pharma\\obj\\",
+      "outputPath": "C:\\Users\\User\\Source\\Repos\\Pharma\\Pharma\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

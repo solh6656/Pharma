@@ -23,7 +23,7 @@ namespace Pharma.Service.Services
         public User Create(UserView userDto)
         {
             var users = GetAll();
-            bool check = users.Check(userDto.Username);
+            bool check = users.Check(userDto.Username, userDto.Password);
 
             if (!check)
                 return Update(userDto.Username, userDto);
