@@ -115,8 +115,8 @@ namespace Pharma.Menu
                     uSername = Console.ReadLine();
                     Console.Write("\n Enter Phone : ");
                     phone = Console.ReadLine();
-                    Console.Write("\n Enter Password name : ");
-                    paSsword = Console.ReadLine();
+                    Console.Write("\n Enter Password : ");
+                    paSsword = Hide();
 
                     UserView userView = new UserView()
                     {
@@ -132,6 +132,40 @@ namespace Pharma.Menu
                     Console.Clear();
                     goto log;
                     
+            }
+        }
+
+        public static string Hide()
+        {
+            string hide = "";
+            while (true)
+            {
+                try
+                {
+                    ConsoleKeyInfo key = Console.ReadKey(true);
+                    switch (key.Key)
+                    {
+                        case ConsoleKey.Escape:
+                            return null;
+                        case ConsoleKey.Enter:
+                            return hide;
+                        case ConsoleKey.Backspace:
+                            if(hide.Length > 0)
+                                hide = hide.Substring(0, (hide.Length - 1));
+                            Console.Write("\b \b");
+                            break;
+                        default:
+                            hide += key.KeyChar;
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.Write("*");
+                            Console.ForegroundColor = ConsoleColor.White;
+                            break;
+                    }
+                }
+                catch
+                {
+                    Console.WriteLine($"Xatolik!!!");
+                }
             }
         }
 

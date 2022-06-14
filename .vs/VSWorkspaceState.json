@@ -5,12 +5,13 @@
     "\\Pharma\\Data",
     "\\Pharma\\Data\\Databases",
     "\\Pharma\\Domin",
-    "\\Pharma\\Domin\\Enttes",
     "\\Pharma\\Menu",
     "\\Pharma\\Service",
     "\\Pharma\\Service\\Extansions",
-    "\\Pharma\\Service\\Services"
+    "\\Pharma\\Service\\Services",
+    "\\Pharma\\Settings",
+    "\\Pharma\\Settings\\Configuratsion"
   ],
-  "SelectedNode": "\\Pharma\\Menu\\Menu.cs",
+  "SelectedNode": "\\Pharma\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
