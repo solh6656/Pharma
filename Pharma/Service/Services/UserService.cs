@@ -25,7 +25,7 @@ namespace Pharma.Service.Services
             var users = GetAll();
             bool check = users.Check(userDto.Username, userDto.Password.GetHashCode().ToString());
 
-            if (check)
+            if (!check)
                 return Update(userDto.Username, userDto);
 
             return userRepository.Create(userDto.Mapper());
